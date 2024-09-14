@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #e0e0e0;
+    background-color: #121212;
+}
+
+header {
+    background-color: #1f1f1f;
+    padding: 0;
+    text-align: center;
+    border-bottom: 2px solid #333;
+}
+
+header .logo {
+    width: 100%;
+    height: auto;
+    max-height: 33.33vw; /* Menjaga rasio 3:1 berdasarkan lebar viewport */
+    object-fit: cover; /* Memastikan gambar tidak terdistorsi */
+}
+
+.container {
+    padding: 20px;
+}
+
+h1 {
+    color: #e0e0e0;
+}
+
+.product {
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: #1e1e1e;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #444;
+}
+
+.product h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #e0e0e0;
+}
+
+.product p {
+    color: #b0b0b0;
+}
+
+.footer {
+    background-color: #1f1f1f;
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid #333;
+}
+
+.footer p {
+    color: #e0e0e0;
+}
+
+.footer a {
+    color: #1e90ff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
